@@ -36,6 +36,7 @@ The encryption process involves deriving a key from the user-provided decryption
 1. **Modify the Script:**
    - Open the `bookmarklet.js` file.
    - Customize the `messages` and `fieldMappings` objects to match the websites you use.
+   - The file must not contain any comments.
 
 2. **Navigate to a Website:**
    - Go to the login page of the website you configured in the `fieldMappings`.
