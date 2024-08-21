@@ -21,10 +21,11 @@ The encryption process involves deriving a key from the user-provided decryption
 ## Installation
 
 1. **Create a Bookmarklet:**
-   - Copy the entire JavaScript code from `bookmarklet.js`. This file contains test data specifically for use with `nid.naver.com`.
-   - The test password included is `claudia`.
+   - Copy the entire JavaScript code from `bookmarklet.js`. This file contains test data specifically for use with `nid.naver.com`, and the test password included is `claudia`.
+   - Ensure that there are no comments in the middle of the code.
    - Create a new bookmark in your web browser.
    - Paste the JavaScript code into the bookmark’s URL field.
+
 
 2. **Add the Bookmarklet:**
    - Name your bookmark (e.g., "Password Decryptor").
