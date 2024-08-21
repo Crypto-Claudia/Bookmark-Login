@@ -72,7 +72,6 @@ const messages = {
         'Third Account': '4tFkBpBYchRlXyqWIvEt6OlZf92CZ9xUTP3oznzySb21ghMyqOAjFDe+w/l/8HgwOqkxsbibqJUlTJsup4f14w=='
     },
     'accounts.kakao.com': 'PDdZ2HLEa8vIqhDPpt+ZSJNUN+/RFKuReq5scXcWIZByp6sf0f/C2sQ+QQBmd8ghrGXTbj9j81YrUImeBYQ/Xg==',
-    'df.nexon.com': 'wPIJp+oletPyys3s2hMavPqgKREwHbUI0MOOB6ETnjEesJou14Y+ycb+csNw509j'
 };
 ```
 ## `fieldMappings` Object Structure
