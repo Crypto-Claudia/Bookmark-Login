@@ -18,7 +18,7 @@ This repository contains a bookmarklet script designed to decrypt and autofill p
 
 The encryption process involves deriving a key from the user-provided decryption phrase using PBKDF2, and then using that key to decrypt data encrypted with AES-CBC.
 
-For detailed information on how to generate the encrypted strings and how keys are derived, refer to encrypt.js.
+For detailed information on how to generate the encrypted strings and how keys are derived, refer to `encrypt.js`.
 
 ## Installation
 
