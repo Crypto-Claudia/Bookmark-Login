@@ -18,12 +18,12 @@ This repository contains a bookmarklet script designed to decrypt and autofill p
 
 The encryption process involves deriving a key from the user-provided decryption phrase using PBKDF2, and then using that key to decrypt data encrypted with AES-CBC.
 
-For detailed information on how to generate the encrypted strings and how keys are derived, refer to `encrypt.js`.
+For detailed information on how to generate the encrypted strings and how keys are derived, refer to [`encrypt.js`](encrypt.js).
 
 ## Installation
 
 1. **Create a Bookmarklet:**
-   - Copy the entire JavaScript code from `bookmarklet.js`. This file contains test data specifically for use with `nid.naver.com`, and the test password included is `claudia`.
+   - Copy the entire JavaScript code from [`bookmarklet.js`](bookmarklet.js). This file contains test data specifically for use with `nid.naver.com`, and the test password included is `claudia`.
    - Ensure that there are no comments in the middle of the code.
    - Create a new bookmark in your web browser.
    - Paste the JavaScript code into the bookmark’s URL field.
@@ -36,9 +36,10 @@ For detailed information on how to generate the encrypted strings and how keys a
 ## Usage
 
 1. **Modify the Script:**
-   - Open the `bookmarklet.js` file.
+   - Open the [`bookmarklet.js`](bookmarklet.js) file.
    - Customize the `messages` and `fieldMappings` objects to match the websites you use.
    - The file must not contain any comments.
+   - For detailed information on how to generate the encrypted strings and how keys are derived, refer to [`encrypt.js`](encrypt.js).
 
 2. **Navigate to a Website:**
    - Go to the login page of the website you configured in the `fieldMappings`.
